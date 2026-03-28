@@ -1,7 +1,7 @@
-import os
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field
 from tavily import TavilyClient
+from src.llm import get_secret
 
 
 class SearchInput(BaseModel):
@@ -18,7 +18,7 @@ class TavilySearchTool(BaseTool):
     args_schema: type[BaseModel] = SearchInput
 
     def _run(self, query: str, max_results: int = 5) -> str:
-        client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+        client = TavilyClient(api_key=get_secret("TAVILY_API_KEY"))
         response = client.search(
             query=f"fashion {query}",
             max_results=max_results,

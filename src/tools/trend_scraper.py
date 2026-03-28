@@ -1,7 +1,7 @@
-import os
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field
 from tavily import TavilyClient
+from src.llm import get_secret
 
 TREND_QUERY_TEMPLATES = {
     "social_media": "TikTok Instagram fashion trends {region} {year}",
@@ -41,7 +41,7 @@ class TrendScraperTool(BaseTool):
             return f"Unknown trend type '{trend_type}'. Use: social_media, generational, seasonal, runway."
 
         query = template.format(region=region, season=season, year=year)
-        client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+        client = TavilyClient(api_key=get_secret("TAVILY_API_KEY"))
         response = client.search(query=query, max_results=5, include_answer="basic")
 
         results = [f"Trend Search ({trend_type}): {query}\n"]

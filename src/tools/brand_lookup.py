@@ -1,9 +1,9 @@
 import json
-import os
 from pathlib import Path
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field
 from tavily import TavilyClient
+from src.llm import get_secret
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
@@ -39,7 +39,7 @@ class BrandLookupTool(BaseTool):
                     return "\n".join(lines)
 
         # Fallback to web search
-        client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+        client = TavilyClient(api_key=get_secret("TAVILY_API_KEY"))
         response = client.search(
             query=f"{brand_name} fashion brand sustainability ethics values practices",
             max_results=3,
