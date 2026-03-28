@@ -1,0 +1,98 @@
+{
+  "Patagonia": {
+    "sustainability_rating": "A+",
+    "practices": ["recycled materials", "fair trade certified", "1% for the Planet", "Worn Wear repair program"],
+    "price_range": "mid-high ($80-$400)",
+    "target_demographic": "outdoor/casual, 25-55",
+    "style_category": "outdoor, activewear, casual",
+    "headquarters": "USA"
+  },
+  "Zara": {
+    "sustainability_rating": "C",
+    "practices": ["Join Life collection (recycled fabrics)", "garment collection program", "fast fashion model remains"],
+    "price_range": "low-mid ($15-$120)",
+    "target_demographic": "trend-conscious, 18-40",
+    "style_category": "fast fashion, trendy, office-ready",
+    "headquarters": "Spain"
+  },
+  "The Row": {
+    "sustainability_rating": "B",
+    "practices": ["small-batch production", "premium natural fabrics", "timeless design reduces waste"],
+    "price_range": "luxury ($500-$5000+)",
+    "target_demographic": "quiet luxury, 30-60",
+    "style_category": "minimalist luxury, quiet luxury",
+    "headquarters": "USA"
+  },
+  "Uniqlo": {
+    "sustainability_rating": "B-",
+    "practices": ["LifeWear concept", "RE.UNIQLO recycling", "sustainable cotton sourcing"],
+    "price_range": "low-mid ($10-$80)",
+    "target_demographic": "basics-focused, all ages",
+    "style_category": "basics, minimalist, functional",
+    "headquarters": "Japan"
+  },
+  "Everlane": {
+    "sustainability_rating": "B+",
+    "practices": ["radical transparency pricing", "ethical factories", "ReNew recycled collection"],
+    "price_range": "mid ($30-$200)",
+    "target_demographic": "conscious consumers, 25-45",
+    "style_category": "modern basics, clean aesthetic",
+    "headquarters": "USA"
+  },
+  "Nike": {
+    "sustainability_rating": "B-",
+    "practices": ["Move to Zero initiative", "Nike Refurbished program", "recycled polyester usage"],
+    "price_range": "mid ($50-$250)",
+    "target_demographic": "athletic, streetwear, all ages",
+    "style_category": "athletic, streetwear, casual",
+    "headquarters": "USA"
+  },
+  "H&M": {
+    "sustainability_rating": "C+",
+    "practices": ["Conscious Collection", "garment collecting", "sustainability transparency report"],
+    "price_range": "low ($8-$80)",
+    "target_demographic": "budget-conscious, 16-40",
+    "style_category": "fast fashion, trendy, basics",
+    "headquarters": "Sweden"
+  },
+  "Stella McCartney": {
+    "sustainability_rating": "A",
+    "practices": ["no leather/fur/feathers", "regenerative agriculture", "circular design"],
+    "price_range": "luxury ($300-$3000)",
+    "target_demographic": "eco-luxury, 30-55",
+    "style_category": "sustainable luxury, modern feminine",
+    "headquarters": "UK"
+  },
+  "Gucci": {
+    "sustainability_rating": "B",
+    "practices": ["Gucci Equilibrium program", "carbon neutral", "circular materials sourcing"],
+    "price_range": "luxury ($400-$5000+)",
+    "target_demographic": "luxury maximalist, 25-50",
+    "style_category": "luxury, maximalist, eclectic",
+    "headquarters": "Italy"
+  },
+  "Reformation": {
+    "sustainability_rating": "A-",
+    "practices": ["deadstock fabrics", "carbon neutral", "RefScale environmental tracking"],
+    "price_range": "mid-high ($80-$400)",
+    "target_demographic": "eco-conscious, trendy, 22-40",
+    "style_category": "feminine, vintage-inspired, sustainable",
+    "headquarters": "USA"
+  },
+  "Shein": {
+    "sustainability_rating": "D",
+    "practices": ["evoluSHEIN pledge (limited progress)", "ultra-fast fashion model", "transparency concerns"],
+    "price_range": "ultra-low ($3-$40)",
+    "target_demographic": "Gen Z budget shoppers, 16-30",
+    "style_category": "ultra-fast fashion, trend replication",
+    "headquarters": "China/Singapore"
+  },
+  "Comme des Garcons": {
+    "sustainability_rating": "B-",
+    "practices": ["anti-fashion longevity", "small-batch artisanal production", "timeless avant-garde design"],
+    "price_range": "luxury ($200-$3000+)",
+    "target_demographic": "avant-garde, fashion-forward, 25-55",
+    "style_category": "avant-garde, deconstructed, artistic",
+    "headquarters": "Japan"
+  }
+}

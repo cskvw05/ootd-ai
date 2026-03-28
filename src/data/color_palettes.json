@@ -1,0 +1,70 @@
+{
+  "warm_skin_tone": {
+    "best_colors": ["terracotta", "olive green", "warm gold", "cream", "peach", "coral", "burnt orange", "warm brown", "mustard yellow"],
+    "avoid": ["neon pink", "icy blue", "stark white", "cool silver"],
+    "metals": "gold, rose gold, bronze",
+    "neutral_base": "warm beige, camel, chocolate brown"
+  },
+  "cool_skin_tone": {
+    "best_colors": ["navy blue", "emerald green", "lavender", "icy pink", "true white", "royal blue", "burgundy", "soft gray", "plum"],
+    "avoid": ["orange", "warm yellow", "rust", "peach"],
+    "metals": "silver, platinum, white gold",
+    "neutral_base": "cool gray, charcoal, pure white"
+  },
+  "neutral_skin_tone": {
+    "best_colors": ["dusty rose", "jade green", "soft white", "medium blue", "teal", "mauve", "sage", "blush pink"],
+    "avoid": ["very few — most colors work"],
+    "metals": "both gold and silver work well",
+    "neutral_base": "soft white, medium gray, taupe"
+  },
+  "deep_skin_tone": {
+    "best_colors": ["cobalt blue", "bright white", "hot pink", "emerald", "red", "mango", "electric blue", "fuchsia", "golden yellow"],
+    "avoid": ["muted pastels can wash out", "avoid colors too close to skin tone"],
+    "metals": "gold, copper, bronze",
+    "neutral_base": "black, deep navy, rich brown"
+  },
+  "spring_2026": {
+    "pantone_trending": ["Mocha Mousse", "butter yellow", "soft lilac", "sky blue", "sage green"],
+    "combinations": [
+      ["navy", "cream", "gold accessories"],
+      ["soft lilac", "white", "silver"],
+      ["sage green", "warm brown", "cream"],
+      ["butter yellow", "denim blue", "white sneakers"],
+      ["Mocha Mousse", "cream", "gold"]
+    ],
+    "trend_note": "2026 spring emphasizes soft, nature-inspired tones with pops of butter yellow and lilac."
+  },
+  "summer_2026": {
+    "pantone_trending": ["coral sunset", "ocean teal", "lemon sorbet", "sand beige", "tropical green"],
+    "combinations": [
+      ["ocean teal", "white", "gold"],
+      ["coral sunset", "navy", "cream"],
+      ["lemon sorbet", "white", "tan accessories"],
+      ["tropical green", "linen beige", "brown leather"],
+      ["sand beige", "soft blue", "silver"]
+    ],
+    "trend_note": "Summer 2026 draws from coastal and tropical palettes — vibrant yet wearable."
+  },
+  "fall_2026": {
+    "pantone_trending": ["burgundy", "forest green", "rust", "chocolate brown", "dusty mauve"],
+    "combinations": [
+      ["burgundy", "cream", "gold"],
+      ["forest green", "brown", "tan"],
+      ["rust", "navy", "cream"],
+      ["chocolate brown", "camel", "white"],
+      ["dusty mauve", "charcoal", "silver"]
+    ],
+    "trend_note": "Fall 2026 embraces rich, grounded tones — the quiet luxury palette continues."
+  },
+  "winter_2026": {
+    "pantone_trending": ["midnight navy", "cherry red", "ivory", "charcoal", "icy lavender"],
+    "combinations": [
+      ["midnight navy", "ivory", "gold"],
+      ["cherry red", "black", "silver"],
+      ["charcoal", "cream", "burgundy scarf"],
+      ["icy lavender", "soft gray", "white"],
+      ["all black", "statement red accessory"]
+    ],
+    "trend_note": "Winter 2026 balances dark sophistication with statement reds and icy accents."
+  }
+}

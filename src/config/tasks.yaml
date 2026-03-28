@@ -1,0 +1,98 @@
+route_query_task:
+  description: >
+    Analyze this fashion query from the user: "{query}"
+
+    User profile: {user_profile}
+
+    Break down the query into a structured research brief:
+    1. Identify the primary intent (trend search, outfit suggestion, cultural advice, brand info, comparison, etc.)
+    2. List specific sub-questions that need to be researched
+    3. Note which data sources are most relevant (web search, cultural database, brand database, color palettes)
+    4. Flag any user profile details that should influence the response (body type, budget, location, etc.)
+
+    Output a clear, structured research brief that other agents can act on.
+  expected_output: >
+    A structured research brief with: primary intent, sub-questions to research,
+    recommended data sources, and relevant user profile considerations.
+
+research_trends_task:
+  description: >
+    Based on the research brief, find current fashion trend information relevant to the user's query.
+
+    Use the Fashion Web Search and Fashion Trend Scraper tools to gather:
+    - Current trending styles, items, and aesthetics
+    - Social media fashion trends (TikTok, Instagram)
+    - Seasonal trend forecasts
+    - Generational style comparisons if relevant (GenZ vs Millennial)
+    - Viral fashion moments and emerging micro-trends
+
+    Focus only on trends relevant to the user's specific question. Don't research everything —
+    be targeted based on the research brief.
+  expected_output: >
+    A comprehensive trend report with specific trend names, descriptions, key items,
+    and sources. Include what's trending now and what's emerging.
+
+research_culture_task:
+  description: >
+    Based on the research brief, provide cultural and historical fashion context relevant to the query.
+
+    Use the Fashion Knowledge Base tool to query cultural fashion data and fashion history.
+    Supplement with web search if the local data doesn't cover the specific region or topic.
+
+    Cover as needed:
+    - Regional dress codes and fashion etiquette
+    - Traditional vs contemporary style in the region
+    - Seasonal dressing tips for the destination
+    - How fashion has evolved historically if relevant
+    - Local brands and shopping recommendations
+
+    Be specific and respectful about cultural norms.
+  expected_output: >
+    Cultural and historical fashion insights relevant to the query, including specific
+    dress code advice, regional style notes, and local brand recommendations where applicable.
+
+generate_outfit_task:
+  description: >
+    Using all research context from previous agents, generate specific outfit recommendations.
+
+    User profile: {user_profile}
+
+    Create personalized outfit suggestions that consider:
+    - The user's body type, style preferences, and budget
+    - Current trends from the trend research
+    - Cultural appropriateness from the cultural research
+    - Color palette recommendations (use the Fashion Knowledge Base for color data)
+    - Occasion/mood/setting from the original query
+    - Brand options across different price points
+
+    For each outfit, specify:
+    - Top, bottom, shoes, accessories
+    - Colors and fabrics
+    - Why this works for the user
+    - Where to shop (brand suggestions with price awareness)
+  expected_output: >
+    2-3 complete outfit recommendations with specific items, colors, brands,
+    approximate prices, and styling tips tailored to the user's profile and context.
+
+synthesize_response_task:
+  description: >
+    Synthesize all research and recommendations into one cohesive response for the user.
+
+    Combine insights from:
+    - The research brief (what the user actually wants)
+    - Trend research (what's current and relevant)
+    - Cultural context (regional and historical insights)
+    - Outfit recommendations (specific, personalized suggestions)
+
+    Format the response as a conversational, engaging answer:
+    - Lead with the most relevant insight
+    - Include specific outfit recommendations with details
+    - Add trend context that enriches the advice
+    - Note brand sustainability where relevant (use the Brand Lookup tool to check)
+    - End with clear, actionable next steps
+
+    Tone: knowledgeable friend, not a textbook. Be specific, not generic.
+  expected_output: >
+    A well-formatted, conversational response that directly answers the user's question
+    with personalized fashion insights, specific outfit suggestions, trend context,
+    and actionable next steps. Should feel like advice from a stylish, knowledgeable friend.

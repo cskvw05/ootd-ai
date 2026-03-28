@@ -1,0 +1,106 @@
+{
+  "Japan": {
+    "traditional": ["kimono", "yukata", "hakama", "obi belt", "geta sandals"],
+    "contemporary_style": "Harajuku street style, minimalist (Uniqlo aesthetic), techwear, kawaii, visual kei",
+    "dress_codes": "Conservative in business (dark suits). Expressive in Shibuya/Harajuku. Remove shoes indoors. Cover tattoos at onsen/gyms.",
+    "seasonal_tips": {
+      "spring": "Light layers, cherry blossom pastels, comfortable walking shoes for hanami",
+      "summer": "Breathable fabrics, yukata for festivals, sun protection essentials",
+      "fall": "Earth tones, layered outerwear, cozy knits",
+      "winter": "Heavy coats, scarves, heat-tech undergarments, waterproof boots"
+    },
+    "local_brands": ["Comme des Garcons", "Uniqlo", "Issey Miyake", "Sacai", "Kapital", "Beams"],
+    "fashion_etiquette": "Modesty appreciated in temples/shrines. Neat appearance valued highly."
+  },
+  "Italy": {
+    "traditional": ["Renaissance-inspired draping", "Venetian masks (Carnevale)", "regional folk costumes"],
+    "contemporary_style": "La bella figura — polished, put-together always. Tailored silhouettes, quality fabrics, understated elegance",
+    "dress_codes": "Dress well everywhere, even for errands. Cover shoulders/knees in churches. No athletic wear outside the gym.",
+    "seasonal_tips": {
+      "spring": "Trench coats, loafers, light scarves, pastel and neutral palettes",
+      "summer": "Linen everything, espadrilles, sunglasses, light cotton dresses",
+      "fall": "Leather jackets, ankle boots, rich earth tones, layered knits",
+      "winter": "Wool coats, cashmere scarves, elegant boots, dark sophisticated palettes"
+    },
+    "local_brands": ["Gucci", "Prada", "Valentino", "Brunello Cucinelli", "Max Mara", "Bottega Veneta"],
+    "fashion_etiquette": "Italians notice shoes first. Invest in quality footwear. Avoid overly casual or sloppy looks."
+  },
+  "India": {
+    "traditional": ["saree", "salwar kameez", "lehenga", "kurta", "sherwani", "dhoti"],
+    "contemporary_style": "Indo-western fusion, bold colors, rich textiles, embroidery, mix of traditional and modern",
+    "dress_codes": "Conservative in religious sites (cover shoulders, knees). Bright colors welcomed at festivals. White for mourning.",
+    "seasonal_tips": {
+      "spring": "Light cotton kurtas, breathable fabrics, floral prints",
+      "summer": "Loose cotton/linen, light colors, sandals, sun protection",
+      "fall": "Festival season: vibrant colors, embroidered pieces, traditional wear",
+      "winter": "Pashmina shawls, layered ethnic wear, warm tones (north India gets cold)"
+    },
+    "local_brands": ["Fabindia", "Sabyasachi", "Anita Dongre", "Biba", "W", "Manish Malhotra"],
+    "fashion_etiquette": "Remove shoes before entering homes/temples. Dress conservatively in rural areas. Jewelry is culturally significant."
+  },
+  "Morocco": {
+    "traditional": ["djellaba", "caftan", "babouche slippers", "fez hat", "headscarf"],
+    "contemporary_style": "Blend of North African and French influences, vibrant patterns, artisanal textiles",
+    "dress_codes": "Modest dress preferred — cover shoulders and knees, especially in medinas and mosques. Loose-fitting clothing recommended.",
+    "seasonal_tips": {
+      "spring": "Light layers, comfortable walking shoes for medinas, breathable fabrics",
+      "summer": "Very hot — light cotton/linen, loose fits, hat and sunscreen essential",
+      "fall": "Pleasant temperatures, layering pieces, desert-appropriate evening layers",
+      "winter": "Riads can be cold — warm layers, especially for mountain areas"
+    },
+    "local_brands": ["Maison ARTC", "Zyne", "Lalla", "Bouchra Jarrar"],
+    "fashion_etiquette": "Modest dress shows cultural respect. Bargaining at souks is expected. Traditional craftsmanship highly valued."
+  },
+  "South Korea": {
+    "traditional": ["hanbok", "jeogori jacket", "chima skirt", "dopo robe"],
+    "contemporary_style": "K-fashion: clean lines, oversized silhouettes, monochrome palettes, K-pop influenced, gender-fluid trends",
+    "dress_codes": "Fashion-forward and put-together in Seoul. Avoid overly revealing clothing in traditional areas. Clean sneakers are essential.",
+    "seasonal_tips": {
+      "spring": "Pastel colors, light jackets, cherry blossom season aesthetic",
+      "summer": "Light fabrics, shorts acceptable, K-beauty sun protection",
+      "fall": "Trench coats, layering season, warm earth tones and plaid",
+      "winter": "Heavy padded jackets (long padding trend), warm accessories, boots"
+    },
+    "local_brands": ["Gentle Monster", "Ader Error", "Wooyoungmi", "Juun.J", "Stylenanda", "8Seconds"],
+    "fashion_etiquette": "Koreans invest heavily in appearance. Matching couple outfits are common. Skincare is part of fashion."
+  },
+  "France": {
+    "traditional": ["Breton stripe", "beret (iconic but rarely worn daily)", "haute couture heritage"],
+    "contemporary_style": "Effortless chic — quality over quantity, neutral palette, mix of high and low, understated elegance",
+    "dress_codes": "Well-dressed in most settings. Avoid athletic wear as daily wear. Dark colors dominate Parisian wardrobes.",
+    "seasonal_tips": {
+      "spring": "Trench coat essential, Breton stripes, ballet flats, light scarves",
+      "summer": "Linen dresses, espadrilles, wicker bags, effortless sundresses",
+      "fall": "Blazers, ankle boots, scarves as accessories, burgundy/navy tones",
+      "winter": "Wool coats, turtlenecks, quality leather boots, all-black ensembles"
+    },
+    "local_brands": ["Chanel", "Dior", "Saint Laurent", "Isabel Marant", "Sezane", "Jacquemus", "AMI Paris"],
+    "fashion_etiquette": "Less is more. French style values quality, fit, and looking like you didn't try too hard."
+  },
+  "Brazil": {
+    "traditional": ["Bahian dress (baiana)", "Carnival costumes", "havaianas flip-flops"],
+    "contemporary_style": "Vibrant colors, body-confident fits, beachwear culture, tropical prints, relaxed elegance",
+    "dress_codes": "Casual and colorful in daily life. Beach culture influences everyday wear. Smart casual for business.",
+    "seasonal_tips": {
+      "spring": "Floral prints, light dresses, sandals, bright accessories",
+      "summer": "Minimal layers, swimwear culture, bold colors, resort wear",
+      "fall": "Light jackets, jeans, boots in southern regions",
+      "winter": "Mild — layers in south, still warm in north. Leather jackets popular."
+    },
+    "local_brands": ["Havaianas", "Farm Rio", "Osklen", "Lenny Niemeyer", "Adriana Degreas"],
+    "fashion_etiquette": "Brazilians are fashion-conscious and body-positive. Beachwear is distinct from daily wear in cities."
+  },
+  "UAE / Dubai": {
+    "traditional": ["abaya", "kandura/thobe", "shayla/hijab", "ghutra/keffiyeh"],
+    "contemporary_style": "Luxury-focused, designer brands, modest fashion meets high fashion, gold accessories",
+    "dress_codes": "Modest dress in public — cover shoulders and knees. More relaxed in hotels/resorts. Friday dress is traditional.",
+    "seasonal_tips": {
+      "spring": "Light modest layers, breathable fabrics, sunglasses",
+      "summer": "Extreme heat — ultra-light fabrics, indoor mall culture, resort wear at hotels",
+      "fall": "Still warm — similar to spring, evening events may be outdoors",
+      "winter": "Most pleasant — light jacket for evenings, outdoor fashion events season"
+    },
+    "local_brands": ["Elie Saab", "Amato Couture", "Bambah", "Huda Beauty (beauty crossover)", "The Modist"],
+    "fashion_etiquette": "Respect local customs with modest clothing. Luxury is appreciated. Dubai Fashion Week growing in global influence."
+  }
+}
